@@ -1,0 +1,33 @@
+.navbar-nav .nav-link.red {
+    color: #fff !important;
+    background-color: #d72638;
+    border-radius: 5px;
+    margin: 0 5px;
+  }
+  .hero-section {
+    background: url('tu-imagen-aqui.jpg') center center/cover no-repeat;
+    height: 80vh;
+    position: relative;
+    color: white;
+  }
+  .watermark {
+    position: absolute;
+    top: 30%;
+    left: 20px;
+    transform: rotate(-20deg);
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  @media screen and (min-width: 769px) {
+      .bx-logo {
+          width: 350px;
+      }
+  }
+
+  .bx-logo {
+      width: 180px;
+      z-index: 9;
+      position: relative;
+      /* top: -24px; */
+  }
