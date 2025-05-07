@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rosatel</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background-color: white;
+      border-bottom: 1px solid #ccc;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .location {
+      font-size: 14px;
+    }
+    .location span {
+      color: #d72638;
+      font-weight: bold;
+    }
+    .logo {
+      text-align: center;
+    }
+    .logo img {
+      height: 40px;
+    }
+    .icons {
+      display: flex;
+      gap: 15px;
+    }
+    nav {
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      border-bottom: 1px solid #ccc;
+    }
+    nav a {
+      padding: 15px 20px;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+    nav a.red {
+      color: white;
+      background-color: red;
+      border-radius: 5px;
+    }
+    .hero {
+      position: relative;
+      height: 80vh;
+      background: url('tu-imagen-aqui.jpg') center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      padding-left: 20px;
+      color: white;
+    }
+    .hero-logo {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background: rgba(0,0,0,0.5);
+      padding: 10px;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="location">Estás comprando en <span>Lima, Peru</span></div>
+    <div class="logo"><img src="cayelove-logo.png" alt="CayeLove Logo"></div>
+    <div class="icons">
+      🔍 📱 👤
+    </div>
+  </header>
+
+  <nav>
+    <a href="#">MENÚ</a>
+    <a href="#">OCASIONES</a>
+    <a href="#" class="red">RECOJO EN TIENDA</a>
+    <a href="#" class="red">DELIVERY 1HORA</a>
+    <a href="#">PRIME</a>
+    <a href="#">FOREVER</a>
+    <a href="#">HOME</a>
+    <a href="#">MEMORIES</a>
+    <a href="#">DÍA DE LA MADRE</a>
+    <a href="#">PROMOCIONES</a>
+    <a href="#">OFERTA 24HRS</a>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-logo">
+      <p style="writing-mode: vertical-lr; transform: rotate(180deg);">Entregando amor desde 1994</p>
+    </div>
+  </section>
+
+</body>
+</html>
